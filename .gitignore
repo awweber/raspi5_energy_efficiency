@@ -1,0 +1,37 @@
+# Build artifacts
+energy_efficiency
+*.o
+*.a
+*.so
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# PowerTOP reports
+powertop_report.html
+
+# Backup files
+*.bak
+*.backup
+
+# Core dumps
+core
+core.*
+
+# Test results
+test_results/
+benchmark_results/
